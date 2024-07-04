@@ -56,6 +56,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63296AB52C3695CA000FCBF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				634F96802BD1769400822418 /* AppetizerTabView.swift */,
+				63296AB62C3695D8000FCBF5 /* AppetizerListView */,
+				63296AB72C3695E5000FCBF5 /* AccountView */,
+				63296AB82C3695F2000FCBF5 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		63296AB62C3695D8000FCBF5 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				63EFD77C2C20923100A6BE69 /* AppetizerListViewModel.swift */,
+				634F968C2BD17B8100822418 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		63296AB72C3695E5000FCBF5 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				634F968E2BD17B8A00822418 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		63296AB82C3695F2000FCBF5 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				634F96902BD17B9300822418 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		63296AB92C36966A000FCBF5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				63296ABC2C369698000FCBF5 /* Alerts */,
+				63296ABB2C369681000FCBF5 /* Extensions */,
+				63296ABA2C369679000FCBF5 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		63296ABA2C369679000FCBF5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				63EFD7782C207B4700A6BE69 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		63296ABB2C369681000FCBF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6311FE782C35A14F004E3138 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63296ABC2C369698000FCBF5 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				63EFD77A2C20882100A6BE69 /* APError.swift */,
+				63EFD77E2C20AFEC00A6BE69 /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		63296ABD2C3696EB000FCBF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63E695F42BD2C60B00889AC8 /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63296ABE2C369710000FCBF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63296AC12C36972E000FCBF5 /* Image */,
+				63296AC02C369728000FCBF5 /* Cells */,
+				63296ABF2C36971B000FCBF5 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63296ABF2C36971B000FCBF5 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				6311FE762C35A07F004E3138 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		63296AC02C369728000FCBF5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63F6B9D32BEA38BE0049604E /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63296AC12C36972E000FCBF5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				63296AB32C368F5A000FCBF5 /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		634F96722BD1769400822418 = {
 			isa = PBXGroup;
 			children = (
@@ -75,22 +188,13 @@
 		634F967D2BD1769400822418 /* AppetizersApp */ = {
 			isa = PBXGroup;
 			children = (
+				63296ABE2C369710000FCBF5 /* Views */,
+				63296ABD2C3696EB000FCBF5 /* Model */,
+				63296AB92C36966A000FCBF5 /* Utilities */,
+				63296AB52C3695CA000FCBF5 /* Screens */,
 				634F967E2BD1769400822418 /* AppetizersAppApp.swift */,
-				634F96802BD1769400822418 /* AppetizerTabView.swift */,
 				634F96822BD1769500822418 /* Assets.xcassets */,
 				634F96842BD1769500822418 /* Preview Content */,
-				634F968C2BD17B8100822418 /* AppetizerListView.swift */,
-				634F968E2BD17B8A00822418 /* AccountView.swift */,
-				634F96902BD17B9300822418 /* OrderView.swift */,
-				63E695F42BD2C60B00889AC8 /* Appetizer.swift */,
-				63F6B9D32BEA38BE0049604E /* AppetizerListCell.swift */,
-				63EFD7782C207B4700A6BE69 /* NetworkManager.swift */,
-				63EFD77A2C20882100A6BE69 /* APError.swift */,
-				63EFD77C2C20923100A6BE69 /* AppetizerListViewModel.swift */,
-				63EFD77E2C20AFEC00A6BE69 /* Alert.swift */,
-				6311FE762C35A07F004E3138 /* LoadingView.swift */,
-				6311FE782C35A14F004E3138 /* Color+Ext.swift */,
-				63296AB32C368F5A000FCBF5 /* RemoteImage.swift */,
 			);
 			path = AppetizersApp;
 			sourceTree = "<group>";
