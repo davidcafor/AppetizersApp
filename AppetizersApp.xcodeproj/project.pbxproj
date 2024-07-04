@@ -10,6 +10,7 @@
 		6311FE772C35A07F004E3138 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311FE762C35A07F004E3138 /* LoadingView.swift */; };
 		6311FE792C35A14F004E3138 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311FE782C35A14F004E3138 /* Color+Ext.swift */; };
 		63296AB42C368F5A000FCBF5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63296AB32C368F5A000FCBF5 /* RemoteImage.swift */; };
+		63296AC32C36B8A4000FCBF5 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63296AC22C36B890000FCBF5 /* AppetizerDetailView.swift */; };
 		634F967F2BD1769400822418 /* AppetizersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F967E2BD1769400822418 /* AppetizersAppApp.swift */; };
 		634F96812BD1769400822418 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F96802BD1769400822418 /* AppetizerTabView.swift */; };
 		634F96832BD1769500822418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634F96822BD1769500822418 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		6311FE762C35A07F004E3138 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6311FE782C35A14F004E3138 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		63296AB32C368F5A000FCBF5 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		63296AC22C36B890000FCBF5 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		634F967B2BD1769400822418 /* AppetizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634F967E2BD1769400822418 /* AppetizersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppApp.swift; sourceTree = "<group>"; };
 		634F96802BD1769400822418 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		63296AB62C3695D8000FCBF5 /* AppetizerListView */ = {
 			isa = PBXGroup;
 			children = (
+				63296AC22C36B890000FCBF5 /* AppetizerDetailView.swift */,
 				63EFD77C2C20923100A6BE69 /* AppetizerListViewModel.swift */,
 				634F968C2BD17B8100822418 /* AppetizerListView.swift */,
 			);
@@ -287,6 +290,7 @@
 				634F96812BD1769400822418 /* AppetizerTabView.swift in Sources */,
 				63EFD7792C207B4700A6BE69 /* NetworkManager.swift in Sources */,
 				63296AB42C368F5A000FCBF5 /* RemoteImage.swift in Sources */,
+				63296AC32C36B8A4000FCBF5 /* AppetizerDetailView.swift in Sources */,
 				634F967F2BD1769400822418 /* AppetizersAppApp.swift in Sources */,
 				63EFD77F2C20AFEC00A6BE69 /* Alert.swift in Sources */,
 				634F968D2BD17B8100822418 /* AppetizerListView.swift in Sources */,
